@@ -1,0 +1,183 @@
+.container-1{
+	display: flex;
+	align-items: center;
+	}
+
+@media screen and (max-width: 1024px){
+	.container-1{
+		display: flex;
+
+		flex-direction: column;
+	}
+}
+.container-3{
+    display:flex;  
+    flex-wrap:wrap;
+    justify-content: space-around;
+   	margin-left: 5em;
+    margin-right:5em;
+
+  }
+
+ .container-3 div{
+    border:1px #dddddd solid;
+    padding:1em;
+
+  }
+  .container-3-box{
+    flex-basis:16%;
+    
+  }
+
+.container{
+	margin: auto;
+}
+
+.sidelogo{
+	flex: 0;
+	margin-left: 5%;
+
+}
+.search{
+	flex:3;
+
+}
+.logininfo{
+	padding-right: 
+
+}
+header{
+
+	padding:1em;
+
+	background-color: white;
+}
+
+
+body{
+	background-color: #ebebeb;
+	font-size: 16px;
+	font-family: Verdana, Arial, sans-serif;
+	margin:0;
+
+	
+
+}
+
+h1{
+	text-align: left;
+	padding-bottom: 1.2em;
+	padding-top: 1.2em;
+	padding-left: 1.5em;
+	/*border-style: dashed;*/
+	border-radius: 1em;
+	 font-weight:normal;
+}
+h3{
+	
+	text-align: center;
+
+	margin: 0.4em;
+	font-weight:100;
+	-webkit-text-stroke-color: rgb(255,255,255);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-font-smoothing: antialiased;
+	
+}
+
+
+
+
+
+
+ul {
+	
+    margin-bottom: 10px;
+    width: 100%;
+    height:40px;
+
+		list-style-type: none;
+		display: inline-flex;
+		align-items: center;
+
+}
+
+ul li{
+	display: inline;
+	padding: 5px 25px;
+}
+ul li a{
+	font-size: 100%;
+	text-decoration: none;
+	color: black;
+	/*border: dashed;*/
+	
+	
+
+}
+input[type=text] {
+    width: 400px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    /*border-radius: 1.5em;*/
+    font-size: 18px;
+    background-color: white;
+    background-image:url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    
+    margin-left: 15px;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+#extra-services{
+	background-color: white;
+}
+#katopsh-info{
+	background-color: white;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	gridauto-rows:minmax(100px,auto);
+	grid-gap:3px;
+	justify-items:stretch;
+}	
+.wrapper > div{
+	background: #eee;
+	padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+	background: #ddd;
+}
+
+.box1{
+	color: green;
+	grid-row:1/6;
+}
+.box2{
+	color:red;
+	grid-row:1/3;
+}
+.box3{
+	color: violet;
+	grid-row:1/3;
+}
+.box4{
+	color: blue;
+	grid-row:3/6;
+	grid-column:2/4;
+}
+footer{
+	background-color: #3c4859;
+	color: white;
+}
+
+.epik h2{
+	margin-left: 1em;
+	margin-right: 3em;
+	}
