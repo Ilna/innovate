@@ -10,6 +10,13 @@
 		flex-direction: column;
 	}
 }
+aside{
+	float:left;
+	border: solid;
+	height: 1850px;
+	width: 250px;
+	margin-left: -80px;
+}
 .container-3{
     display:flex;  
     flex-wrap:wrap;
@@ -20,7 +27,7 @@
   }
 
  .container-3 div{
-    border:1px #dddddd solid;
+    
     padding:1em;
 
   }
@@ -127,13 +134,11 @@ input[type=text] {
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
+    
     
     margin-left: 15px;
 }
-input[type=text]:focus {
-    width: 100%;
-}
+
 #extra-services{
 	background-color: white;
 }
